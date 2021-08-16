@@ -5,7 +5,7 @@ fetch('https://ipapi.co/json/')
   .then(d => d.json())
   .then(d => count = d.country_name);
   
-if (count === count) {
+if (count == count) {
   document.querySelector('#ip').innerHTML = 'ERROR IP'
   alert('Err#01: country in BlackList')
   document.querySelector('#ipinfo').innerHTML = 'COUNTRY IN BLACKLIST'
